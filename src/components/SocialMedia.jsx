@@ -71,8 +71,6 @@ const SocialMedia = () => {
                   maxWidth: '540px', 
                   minWidth: '326px', 
                   padding: 0, 
-                  width: '99.375%', 
-                  width: '-webkit-calc(100% - 2px)', 
                   width: 'calc(100% - 2px)' 
                 }}
               >
