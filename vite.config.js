@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// If your repository is named 'La-Queen-Nails', use '/La-Queen-Nails/'
-// If your repository is 'nkizzy.github.io' (main GitHub Pages), use '/'
+// GitHub Pages configuration for La-Queen-Nails repository
+// Base path must match repository name for proper asset loading
 export default defineConfig({
   plugins: [react()],
   base: '/La-Queen-Nails/',
